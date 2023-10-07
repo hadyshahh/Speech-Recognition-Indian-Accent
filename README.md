@@ -4,10 +4,6 @@ _Traditional ASR (Signal Analysis, MFCC, DTW, HMM & Language Modelling) and DNNs
 _**<< Uploaded the pre-trained model owing to requests >>**_<br>
 _The generated trie file is uploaded to pre-trained-models directory. So you can skip the KenLM Toolkit step._
 
-To understand the context, theory and explanation of this project, head over to my blog:<br>
-https://towardsdatascience.com/indian-accent-speech-recognition-2d433eb7edac
-
-
 # How to Use?
 
 A starter Code to use the model is given in the file: Starter.ipynb. You can run it in your Google Colab, if you upload the 3 files (given in params) to your google drive.
@@ -23,9 +19,6 @@ A starter Code to use the model is given in the file: Starter.ipynb. You can run
 ![](images/code_execution.gif)
 
 
-**If you run into issue while loading the pre-trained model, then it is mostly due to your deepspeech version.**
-
-
 ## Contents:
 
 - vui_notebook.ipynb: **DNN Custom Models and Comparative Analysis** to make a custom Speech Recognition model.
@@ -37,8 +30,6 @@ A starter Code to use the model is given in the file: Starter.ipynb. You can run
 **Indic TTS Project:** Downloaded 50+ GB of Indic TTS voice DB from Speech and Music Technology Lab,  IIT Madras, which comprises of 10000+ spoken sentences from 20+ states (both Male and Female native speakers)
 
 https://www.iitm.ac.in/donlab/tts/index.php
-
-You can also record your own audio or let the ebook reader apps read a document. But I found it is insufficient to train such a heavy model. Then I requested support of IIT Madras, Speech Lab who kindly granted access to their Voice database.
 
 ## DNN Custom Models for Speech Recognition:
 
@@ -136,9 +127,4 @@ The above depiction proves that the **trained model performs much better for Ind
 We have proved the case, by doing transfer learning Baidu's DeepSpeech pre-trained model on Indian-English Speech data from multiple states. You can easily extend the approach for any root language or locale accent as well.<br> 
 
 If you have any query or suggestion, you can reach me here.
-https://www.linkedin.com/in/ananduthaman/
 
-
-## References
-[1] https://www.iitm.ac.in/donlab/tts/database.php<br>
-[2] https://www.udacity.com/course/natural-language-processing-nanodegree--nd892
